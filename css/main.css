@@ -111,7 +111,8 @@ a {
     right:1em;
     bottom:1em;
     background-color: White;
-    border:1px solid black;
+    border:1px solid LightBlue;
+    border-radius: 2px;
     z-index:3;
     padding:0.5em;
     -webkit-transition: all 500ms ease-out 1s;
@@ -134,12 +135,10 @@ iframe {
 }
 
 .fr {
-    display:inline-block;
     float:right;
 }
 
 .fl {
-    display:inline-block;
     float:left;
 }
 
@@ -150,10 +149,15 @@ iframe {
 
 .inline-list{
     display:inline-block;
+    clear:both;
 }
 
 .inline-list > li {
     display:inline-block;
+}
+
+.close {
+    color:Red;
 }
 
 
