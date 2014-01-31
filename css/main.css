@@ -110,7 +110,7 @@ a {
     position:fixed;
     right:1em;
     bottom:1em;
-    background-color: White;
+    background-color: LightBlue;
     border:1px solid LightBlue;
     border-radius: 2px;
     z-index:3;
@@ -134,6 +134,11 @@ iframe {
     box-sizing: border-box;
 }
 
+i {
+    color:White;
+    margin:10px;
+}
+
 .fr {
     float:right;
 }
@@ -148,18 +153,24 @@ iframe {
 }
 
 .inline-list{
-    display:inline-block;
     clear:both;
+    padding:10px 0 0 0 ;
 }
 
 .inline-list > li {
     display:inline-block;
-}
+    }
 
 .close {
     color:Red;
 }
 
+.lamb {
+    position:relative;
+    top:-12px;
+    height:66px;
+    vertical-align: middle;
+}
 
 
 
